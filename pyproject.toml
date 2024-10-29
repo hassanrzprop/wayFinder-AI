@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agentic-way-finder"
+version = "0.1.0"
+description = ""
+authors = ["hassanrzprop <hassanrzprop@gamil.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-community = "^0.3.3"
+langchain-core = "^0.3.13"
+langchain-google-genai = "^2.0.1"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.4"
+faiss-cpu = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
